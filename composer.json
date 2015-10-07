@@ -19,10 +19,12 @@
         "sensio/distribution-bundle": "~3.0,>=3.0.12",
         "sensio/framework-extra-bundle": "~3.0,>=3.0.2",
         "incenteev/composer-parameter-handler": "~2.0",
-        "doctrine/doctrine-fixtures-bundle": "v2.2.0"
+        "doctrine/doctrine-fixtures-bundle": "v2.2.0",
+        "jms/serializer-bundle": "0.13.*"
     },
     "require-dev": {
-        "sensio/generator-bundle": "~2.3"
+        "sensio/generator-bundle": "~2.3",
+        "jms/serializer": "dev-master"
     },
     "scripts": {
         "post-root-package-install": [
